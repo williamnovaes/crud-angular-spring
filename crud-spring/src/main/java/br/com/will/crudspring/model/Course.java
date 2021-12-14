@@ -25,4 +25,9 @@ public class Course {
     
     @Column(length = 200, nullable = false)
     private String category;
+
+    public Course(String name, String category) {
+        this.name = name;
+        this.category = category;
+    }
 }
