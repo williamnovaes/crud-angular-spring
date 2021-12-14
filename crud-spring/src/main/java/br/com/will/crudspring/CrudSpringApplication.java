@@ -30,6 +30,8 @@ public class CrudSpringApplication {
 			courses.add(new Course("C#", "backend"));
 			courses.add(new Course("Delphi", "backend"));
 			courses.add(new Course("Html", "marcacao"));
+
+			courses.add(new Course("Php", "frontend"));
 			courseRepository.saveAll(courses);
 		};
 	}
